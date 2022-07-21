@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Raleway:wght@500&family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1250px;
+    margin: auto;
+}
+
+.hero-img {
+    margin: 1rem;
+    border-radius: 1rem;  
+    background-image: url(https://wallpaperaccess.com/full/1216088.jpg);
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+}
+
+
+.lays-img {
+    transform: rotate(20deg);
+    height: 450px;
+    width: 500px;
+
+    
+}
+
+.lays-img-container {
+    padding: 4rem 1rem 1rem 0rem;
+    margin: 3rem 5rem 4rem 4rem;
+}
+
+.hero-details {
+    padding: 3rem 4.5rem;
+}
+.hero-details > h1 {
+    color: white;
+    font-family: 'Passion One', cursive;
+    font-size: 4rem;
+    font-weight: bolder;
+    width: 400px;
+    line-height: 0.9;
+    margin-bottom: 1rem;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating > .price {
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: white;
+}
+
+.rating .fa {
+    color: #fdae0e;
+    margin-right: .5rem;
+
+}
+
+.hero-details > .flavor-tag {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e33448;
+}
+
+.hero-details > .process-description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    width: 400px;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+}
+
+.user-interact-section {
+    display: flex;
+}
+
+.user-interact {
+    display: inline-flex;
+    background-color: white;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin-right: 1rem;
+}
+
+input {
+    width: 5rem;
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.user-interact> button {
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 20%;
+}
+
+.user-interact > .decreament {
+    padding: 0 0.8rem;
+}
+
+.user-interact > .increament {
+    padding: 0 0.7rem;
+}
+
+.cart-btn {
+    font-size: 1rem;
+    padding: 0 2.5rem;
+    border-radius: .5rem;
+    border: none;
+    background: #f93142;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.user-interact-section .cart-btn i {
+    margin-right: 1rem;
+}
+
