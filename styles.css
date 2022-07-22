@@ -8,6 +8,7 @@
 body {
     width: 1250px;
     margin: auto;
+    background-color: #fdfdfd;
 }
 
 .hero-img {
@@ -93,15 +94,17 @@ body {
     padding: .5rem;
     border-radius: .5rem;
     margin-right: 1rem;
+
 }
 
-input {
+.user-interact-section input {
     width: 5rem;
     height: 2.5rem;
     border: none;
     outline: none;
     text-align: center;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .user-interact>button {
@@ -112,10 +115,12 @@ input {
 
 .user-interact>.decreament {
     padding: 0 0.8rem;
+    font-weight: bold;
 }
 
 .user-interact>.increament {
     padding: 0 0.7rem;
+    font-weight: bold;
 }
 
 .cart-btn {
@@ -159,7 +164,7 @@ ul > li {
 
 
 .search-box {
-    border : 1px solid lightgray;
+    border : 1px solid #ecebef;
     border-radius : 4px;
     padding : 0.6rem;
     width : fit-content;
@@ -181,11 +186,6 @@ ul > li {
     margin-left: 6px;
 }
 
-.nav-links {
-    /* padding : 0.9rem 0; */
-    /* position: relative; */
-}
-
 .basket-box > span {
     border: 1px solid #e33448;
     background: #e33448;
@@ -200,11 +200,8 @@ ul > li {
 .nav-rewards {
     position: relative;
     padding: .3rem;
-    /* border: 1px solid black; */
 }
 .new-tag {
-    /* position : relative; */
-    /*   border : 1px solid black; */
     display : inline-block;
     padding : .2rem 1rem;
     border-radius : 1rem;
@@ -218,10 +215,6 @@ ul > li {
     bottom: 100%;
     left: 50%;
     border: 1px solid #e33448;
-    /* padding: .3rem; */
-    /* border-radius: 1rem;
-    color: white;
-    background: #e33448; */
 }
 
 .nav-rewards>.new-tag:after {
@@ -233,7 +226,6 @@ ul > li {
     content : "";
     height : 11px;
     width : 3px;
-  /*   border : 1px solid transparent; */
     border-top : 1px solid transparent;
     border-bottom : 1px solid transparent;
     border-right : 1px solid transparent;
